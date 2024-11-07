@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "commonjs",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "outDir": "./dist",
+      "rootDir": "./",  // Permite arquivos tanto na pasta 'src' quanto em 'tests'
+    },
+    "include": [
+      "src/**/*.ts",
+      "tests/**/*.ts"  // Inclui os arquivos de teste
+    ]
+  }
+  

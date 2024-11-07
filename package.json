@@ -1,0 +1,14 @@
+{
+    "name": "nike-playwright",
+    "version": "1.0.0",
+    "scripts": {
+      "test": "npx playwright test",
+      "test:debug": "npx playwright test --debug"
+    },
+    "devDependencies": {
+      "@playwright/test": "^1.34.0",
+      "typescript": "^5.0.0",
+      "@types/node": "^20.0.0"
+    }
+  }
+  
